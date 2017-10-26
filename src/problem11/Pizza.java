@@ -84,26 +84,26 @@ public class Pizza {
 		System.out.println("Total cost: " + numberFormatter.format(calcCost()));
 	}
 
-	Pizza() {
+	public Pizza() {
 
 	}
 
-	Pizza(int inputSize) {
+	public Pizza(int inputSize) {
 		setSize(inputSize);
 	}
 
-	Pizza(String inputSize) {
+	public Pizza(String inputSize) {
 		setSize(inputSize);
 	}
 
-	Pizza(int inputSize, int inputCheese, int inputPepperoni, int inputHam) {
+	public Pizza(int inputSize, int inputCheese, int inputPepperoni, int inputHam) {
 		setSize(inputSize);
 		setCheese(inputCheese);
 		setPepperoni(inputPepperoni);
 		setHam(inputHam);
 	}
 
-	Pizza(String inputSize, int inputCheese, int inputPepperoni, int inputHam) {
+	public Pizza(String inputSize, int inputCheese, int inputPepperoni, int inputHam) {
 		setSize(inputSize);
 		setCheese(inputCheese);
 		setPepperoni(inputPepperoni);
